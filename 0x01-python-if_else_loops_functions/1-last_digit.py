@@ -10,7 +10,7 @@ if number > 0:
     else:
         print("Last digit of {:d} is {:d} and is less than 6 and not 0".format(number, last_digit))
 elif number < 0:
-    last_digit = -1* ((-1 * number) % 10)
+    last_digit = -1 * number % 10
     print("Last digit of {:d} is {:d} and is less than 6 and not 0".format(number, -last_digit))
 else:
     last_digit = 0
